@@ -85,12 +85,12 @@ $.getJSON(ROOT_PATH + '/hatlar.json', function (ankaraData) {
             width: 0
           },
           effect: {
-            constantSpeed: 30,
+            constantSpeed: 50,
             show: true,
             trailLength: 0.2,
-            symbolSize: 1.5
+            symbolSize: 2
           },
-          zlevel: 1
+          zlevel: 4
         }
       ]
     })
